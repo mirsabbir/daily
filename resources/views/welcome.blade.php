@@ -73,13 +73,13 @@
 
 <div class="container" style="margin-top: 30px;">
   <div class="row">
-    <div class="col-sm" style="position:relative;">
-      <img src="{{asset('img/shirt.png')}}" alt="" height="516" width="512" style="position: relative;top:0;left:0;">
+    <div class="col-lg" style="position:relative;">
+      <img src="{{asset('img/shirt.png')}}" alt="" height="516" width="512" style="position: relative;top:0;left:0;width:100%;">
       <div id= "im">
-      <img :src="'/img/' + id +'.png'" alt="" height="516" width="512" style="position: absolute;top:14px;left:14px;">
+      <img :src="'/img/' + id +'.png'" alt="" height="516" width="512" style="position: absolute;top:14px;left:-5px;width:100%;">
       </div>
     </div>
-    <div class="col-sm">
+    <div class="col-lg">
       <!-- Material form login -->
 <div class="card">
 
