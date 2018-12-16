@@ -74,9 +74,9 @@
 <div class="container" style="margin-top: 30px;">
   <div class="row">
     <div class="col-sm" style="position:relative;">
-      <img src="{{asset('img/shirt.png')}}" alt="" height="516" width="512" style="position: absolute;">
+      <img src="{{asset('img/shirt.png')}}" alt="" height="516" width="512" style="position: relative;top:0;left:0;">
       <div id= "im">
-      <img :src="'/img/' + id +'.png'" alt="" height="516" width="512" style="position: absolute;">
+      <img :src="'/img/' + id +'.png'" alt="" height="516" width="512" style="position: absolute;top:14px;left:14px;">
       </div>
     </div>
     <div class="col-sm">
