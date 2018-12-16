@@ -94,7 +94,8 @@
   <form class="text-center" style="color: #757575;">
 
   <br>
- <input type="text" data-field="date" class="date form-control mb-4" placeholder="Birthdate">
+  <label for="date">Please select your birthday</label>
+ <input type="text" data-field="date" class="date form-control mb-4" placeholder="Birthdate" value="1995-04-16">
 
  <input type="text" id="sp" class="form-control" readonly>
   
