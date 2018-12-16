@@ -143,6 +143,7 @@ $(".date").flatpickr();
         var year = $('.date').val().substring(0,4);
         var p = ((2018-year)/73)*100;
         p = p | 0;
+        if(p>100) p = 100;
         d.id = p;
         $('#sp').val('your birth year is - ' + year + ' your life percentage is - ' + p);
     }
