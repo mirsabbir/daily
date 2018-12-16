@@ -133,7 +133,7 @@ $(".date").flatpickr();
 <script>var d = new Vue({
             el: '#im',
             data: {
-                id:0,
+                id:101,
             }
         });
     function go(){
