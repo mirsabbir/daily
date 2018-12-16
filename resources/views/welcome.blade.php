@@ -95,6 +95,8 @@
 
   <br>
  <input type="text" data-field="date" class="date form-control mb-4" placeholder="Birthdate">
+
+ <input type="text" id="sp" class="form-control" readonly>
   
     <div id="bt"> 
     <button type="button" onclick="go()" class="btn btn-md btn-outline-primary btn-rounded waves-effect">Calculate</button>
@@ -141,6 +143,7 @@ $(".date").flatpickr();
         var p = ((2018-year)/73)*100;
         p = p | 0;
         d.id = p;
+        $('#sp').val('your birth year is - ' + year + ' your life percentage is - ' + p);
     }
 
 </script>
